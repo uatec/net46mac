@@ -7,6 +7,7 @@ namespace ConsoleApplication
     {
         public static void Main(string[] args)
         {
+            Console.WriteLine("I am running...");
             Console.WriteLine(Assembly.GetCallingAssembly().FullName);
         }
     }
